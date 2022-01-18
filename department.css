@@ -1,0 +1,39 @@
+                    .department-box {
+                        color: #fd0463;
+                        padding: 23px 23px;
+                        border-radius: 50px;
+                        text-align: center;
+                        width: 30%;
+                        font-size: 30px;
+                        font-weight: bolder;
+                        margin: 30px 30px;
+                    }
+                    
+                    .dep-image>img {
+                        width: 100vw;
+                        height: 500px;
+                        object-fit: cover;
+                        opacity: 0.8;
+                    }
+                    
+                    .depart-bar {
+                        display: flex;
+                        flex: 4;
+                        padding: 10px 10px;
+                    }
+                    
+                    .depart-bar>div>img {
+                        width: 150px;
+                        border-radius: 380px;
+                        height: 150px;
+                        object-fit: cover;
+                        padding: auto;
+                    }
+                    
+                    .depart-item {
+                        padding-left: 300px;
+                    }
+                    
+                    .desc-item>div>a:hover {
+                        color: red;
+                    }
