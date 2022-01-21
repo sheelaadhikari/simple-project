@@ -13,12 +13,34 @@
 
 // #2. Boolean Values
 
-function testLogicalAnd(val) {
-    if (val <= 50 && val >= 25) {
-        return "yes";
+// function testLogicalAnd(val) {
+//     if (val <= 50 && val >= 25) {
+//         return "yes";
 
+//     }
+//     return "no";
+
+// }
+// console.log(testLogicalAnd(10, "10"));
+
+
+
+//#3. switch statements
+function switchOfStuff(val) {
+    var answer = "";
+    switch (val) {
+        case "a":
+            answer = "apple";
+            break;
+
+        case "b":
+            answer = "bird";
+            break;
+
+        case "c":
+            answer = "cat";
+            break;
     }
-    return "no";
-
+    return answer;
 }
-console.log(testLogicalAnd(10, "10"));
+console.log(switchOfStuff("a"));
